@@ -1,0 +1,515 @@
+body{
+    background-image: url(images/64aa4e323ad9b2d8940d7fd7_left-blur.webp);
+    background-color: black;
+    background-repeat: no-repeat;
+}
+.navbar-logo img{
+    width: 186px;
+    margin-left: 155px;
+    margin-top: 20px;
+}
+#navbarSupportedContent ul{
+    margin-left: 405px;
+    margin-top: 20px;
+}
+.part-1{
+    width: 100%;
+    text-align: center;
+    top: 22%;
+}
+.span-text{
+    font-size: 40px;
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.part-1 h2{
+    color: white;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+.part-1 h5{
+    margin: auto;
+    max-width: 720px;
+    color: #7b88a8;
+    text-align: center;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.2;
+    top: 20%;
+}
+.part-1-sign-up button{
+    background-image: url(images/button_overlay.c93a39ce.webp),linear-gradient(to right, #02c6c3, #205ed0);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+    height: 40px;
+    width: 290px;
+    transition: transform 0.2s;
+}
+.part-1-sign-up button:hover{
+    transform: scale(1.05);
+}
+.part-2 h3{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.part-2 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.part-2 h5{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+.part-3 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.part-3 h5{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+.part-4 h4{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}
+
+.part-4 h5{
+    color: white;
+    text-align: center;
+    font-size: smaller;
+}
+.part-5{
+    justify-content: space-around;
+}
+.card-main{
+    transition: transform 0.2s;
+}
+.card-main:hover{
+    transform: translateY(-20px);
+}
+.part-6 h6{
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.part-6 h2{
+    color: white;
+    font-weight: bold;
+}
+.part-6 h1{
+    color: black;
+    font-weight: bold;
+}
+.part-6 h4{
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.part-6 span{
+    background: -webkit-linear-gradient(90deg, #0081f1, #00e0b7);
+    background: linear-gradient(90deg, #0081f1, #00e0b7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.part-6 button{
+    border-radius: 20px;
+    transition: transform 0.3s;
+    font-weight: bold;
+}
+.part-6 button:hover{
+    transform: scale(1.1);
+}
+.part-6-container-1{
+    border-radius: 20px;
+    width: 940px;
+    height: 480px;
+}
+.part-6-container-2{
+    border-radius: 20px;
+    width: 940px;
+    height: 480px;
+}
+.horizontal-line{
+    height: 3px; 
+    background-image: radial-gradient(circle, #02c6c3, #006bff 33%, rgba(0, 107, 255, 0));
+    background-size: 100% 100%;
+}
+
+/* Media Queries for Responsive Design */
+
+
+@media(max-width:576px){
+    .inner-container-fluid{
+        margin-left: -150px;
+    }
+}
+
+
+@media(max-width:768px){
+    .inner-container-fluid{
+        margin-left: -150px;
+    }
+}
+
+@media(max-width:1200px){
+    .inner-container-fluid{ 
+        margin-left: -150px; 
+     }
+}
+
+
+@media(max-width:992px){
+    .inner-container-fluid{ 
+        margin-left: -150px;
+     }
+}
+
+
+@media(max-width:1200px){
+    .imans-yt iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .imans-yt iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .imans-yt iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .imans-yt iframe{
+        height: auto;
+        width: auto;
+    }
+} 
+
+@media(max-width:1200px){
+    .part-1-sign-up button{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-1-sign-up button{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-1-sign-up button{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-1-sign-up button{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-2 h3{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-2 h3{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-2 h3{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-2 h3{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-2 h4{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-2 h4{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-2 h4{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-2 h4{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-2 h5{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-2 h5{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-2 h5{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-2 h5{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-2 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-2 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-2 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-2 iframe{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-3 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-3 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-3 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-3 iframe{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-4 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-4 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-4 iframe{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-4 iframe{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-6-container-1{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-6-container-1{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-6-container-1{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-6-container-1{
+        height: auto;
+        width: auto;
+    }
+} 
+@media(max-width:1200px){
+    .part-6-container-2{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:992px){
+    .part-6-container-2{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:768px){
+    .part-6-container-2{ 
+         width: auto; 
+         height: auto; 
+     }
+}
+
+
+@media(max-width:576px){
+    .part-6-container-2{
+        height: auto;
+        width: auto;
+    }
+} 
+
+
